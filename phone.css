@@ -1,0 +1,91 @@
+@media screen and (max-width:1000px){
+  
+    #navbar{
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    #navbar>ul>li{
+        font-size: 15px;
+    }
+    #logo>img{
+        height: 30px;
+    }
+    #home{
+        flex-direction: column;
+        text-align: center;
+        margin:0; 
+        padding:0;   
+        height: 280px;
+    }
+    #home>h1{
+        font-size: 30px;
+        
+        
+    }
+    #home>p{
+        font-size: 20px;
+    }
+    #home::before{
+        height: 280px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .services-container>h1{
+        font-size: 2rem;
+    }
+    .box1,.box2,.box3{
+        width: 50%;
+    margin-left:80px;
+        font-size: 15px;
+    }
+    .box1>img,.box2>img,.box3>img{
+        height: 60px;
+
+    }
+    .food>h1{
+        font-size:2rem;
+    }   
+    .food-categories{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .box{
+        height: 100px;
+        width: 30%;
+    }
+    .box>img{
+        height:60px;
+
+
+    }
+    .box>h2{
+        font-size: 20px;
+    }
+
+    .box5>h2{
+    padding-top: 30px;
+    }
+    .box7>h2{
+        padding-top: 30px;
+    }
+    .box6>h2{
+        padding-top: 12px;
+    }
+    }
+footer{
+    height: 50px;
+    margin-top: 0;
+    padding: 0%;
+    font-size: 15px;
+}
+
+
+
+    
+
+
+    
+
